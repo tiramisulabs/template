@@ -1,0 +1,4 @@
+dist
+node_modules
+.env
+_seyfert_cache_commands.json
