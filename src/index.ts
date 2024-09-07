@@ -80,10 +80,9 @@ declare module 'seyfert' {
     interface ExtendContext extends ReturnType<typeof extendedContext> { }
 
     interface InternalOptions {
-        withPrefix: false; // by default, disabled, set this true if you use (commands: { prefix ... }) client option
+        withPrefix: false; // by default, false, set this true if you use (commands: { prefix ... }) client option
         asyncCache: false; // by default, false, set this true if your cache adapter is async
     }
-
 
     interface RegisteredMiddlewares extends ParseMiddlewares<typeof middlewares> { }
 
