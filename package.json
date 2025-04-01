@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "seyfert": "github:tiramisulabs/seyfert"
+    "seyfert": "2.2.1-dev-13937969432.0"
   }
 }

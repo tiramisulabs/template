@@ -12,8 +12,8 @@ importers:
         specifier: ^16.4.5
         version: 16.4.5
       seyfert:
-        specifier: github:tiramisulabs/seyfert
-        version: https://codeload.github.com/tiramisulabs/seyfert/tar.gz/ead838637c5b285e1b07e2db0646b53bd7a5a605
+        specifier: 2.2.1-dev-13937969432.0
+        version: 2.2.1-dev-13937969432.0
     devDependencies:
       '@types/node':
         specifier: ^22.5.4
@@ -68,9 +68,8 @@ packages:
     engines: {node: '>= 0.10'}
     hasBin: true
 
-  seyfert@https://codeload.github.com/tiramisulabs/seyfert/tar.gz/ead838637c5b285e1b07e2db0646b53bd7a5a605:
-    resolution: {tarball: https://codeload.github.com/tiramisulabs/seyfert/tar.gz/ead838637c5b285e1b07e2db0646b53bd7a5a605}
-    version: 2.1.0
+  seyfert@2.2.1-dev-13937969432.0:
+    resolution: {integrity: sha512-HJR+eEKb4PoXVrdlWsb7+DkUzuTRB4BqHKXhOzDLH2kCuz+p1PYx7nrgM6qceXMzJOx0U2rs/Gk++nPt2odYVg==}
 
   shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
@@ -157,7 +156,7 @@ snapshots:
     dependencies:
       event-stream: 3.3.4
 
-  seyfert@https://codeload.github.com/tiramisulabs/seyfert/tar.gz/ead838637c5b285e1b07e2db0646b53bd7a5a605: {}
+  seyfert@2.2.1-dev-13937969432.0: {}
 
   shebang-command@2.0.0:
     dependencies:

@@ -1,10 +1,9 @@
-require('dotenv/config');
-const { config } = require('seyfert');
+import 'dotenv/config';
+import { config } from 'seyfert';
 
-module.exports = config.bot({
+export default config.bot({
     locations: {
-        base: 'src',
-        output: 'dist',
+        base: 'dist',
         commands: 'commands',
         components: 'components',
         events: 'events',
