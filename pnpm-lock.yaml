@@ -9,33 +9,33 @@ importers:
   .:
     dependencies:
       dotenv:
-        specifier: ^16.4.5
-        version: 16.4.5
+        specifier: ^16.6.1
+        version: 16.6.1
       seyfert:
-        specifier: 2.2.1-dev-13937969432.0
-        version: 2.2.1-dev-13937969432.0
+        specifier: 4.2.2
+        version: 4.2.2
     devDependencies:
       '@types/node':
-        specifier: ^22.5.4
-        version: 22.5.4
+        specifier: ^22.19.15
+        version: 22.19.15
       tsc-watch:
-        specifier: ^6.2.0
-        version: 6.2.0(typescript@5.5.4)
+        specifier: ^6.3.1
+        version: 6.3.1(typescript@5.9.3)
       typescript:
-        specifier: ^5.5.4
-        version: 5.5.4
+        specifier: ^5.9.3
+        version: 5.9.3
 
 packages:
 
-  '@types/node@22.5.4':
-    resolution: {integrity: sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==}
+  '@types/node@22.19.15':
+    resolution: {integrity: sha512-F0R/h2+dsy5wJAUe3tAU6oqa2qbWY5TpNfL/RGmo1y38hiyO1w3x2jPtt76wmuaJI4DQnOBu21cNXQ2STIUUWg==}
 
-  cross-spawn@7.0.3:
-    resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+  cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
-  dotenv@16.4.5:
-    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
+  dotenv@16.6.1:
+    resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
     engines: {node: '>=12'}
 
   duplexer@0.1.2:
@@ -68,8 +68,8 @@ packages:
     engines: {node: '>= 0.10'}
     hasBin: true
 
-  seyfert@2.2.1-dev-13937969432.0:
-    resolution: {integrity: sha512-HJR+eEKb4PoXVrdlWsb7+DkUzuTRB4BqHKXhOzDLH2kCuz+p1PYx7nrgM6qceXMzJOx0U2rs/Gk++nPt2odYVg==}
+  seyfert@4.2.2:
+    resolution: {integrity: sha512-pEVGIFwq4jldZ0aWwKDY2rQvnTlFWrz6bYl5jGTa/dSQo++LpaLMqo4w5MO5iu+u7ZfNR0DgviG4ePwa+tUZNg==}
 
   shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
@@ -92,20 +92,20 @@ packages:
   through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
 
-  tsc-watch@6.2.0:
-    resolution: {integrity: sha512-2LBhf9kjKXnz7KQ/puLHlozMzzUNHAdYBNMkg3eksQJ9GBAgMg8czznM83T5PmsoUvDnXzfIeQn2lNcIYDr8LA==}
+  tsc-watch@6.3.1:
+    resolution: {integrity: sha512-x1hNJ/m1Cln2OvNJJLPsnWI1pObm+Jq9jF6kyz0flEy/ym7Y9TvU9edg6lXLuGVkhDClwBWi8aWAFE0qgzEkzw==}
     engines: {node: '>=12.12.0'}
     hasBin: true
     peerDependencies:
       typescript: '*'
 
-  typescript@5.5.4:
-    resolution: {integrity: sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==}
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@6.19.8:
-    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
+  undici-types@6.21.0:
+    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
 
   which@2.0.2:
     resolution: {integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==}
@@ -114,17 +114,17 @@ packages:
 
 snapshots:
 
-  '@types/node@22.5.4':
+  '@types/node@22.19.15':
     dependencies:
-      undici-types: 6.19.8
+      undici-types: 6.21.0
 
-  cross-spawn@7.0.3:
+  cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
 
-  dotenv@16.4.5: {}
+  dotenv@16.6.1: {}
 
   duplexer@0.1.2: {}
 
@@ -156,7 +156,7 @@ snapshots:
     dependencies:
       event-stream: 3.3.4
 
-  seyfert@2.2.1-dev-13937969432.0: {}
+  seyfert@4.2.2: {}
 
   shebang-command@2.0.0:
     dependencies:
@@ -176,17 +176,17 @@ snapshots:
 
   through@2.3.8: {}
 
-  tsc-watch@6.2.0(typescript@5.5.4):
+  tsc-watch@6.3.1(typescript@5.9.3):
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       node-cleanup: 2.1.2
       ps-tree: 1.2.0
       string-argv: 0.3.2
-      typescript: 5.5.4
+      typescript: 5.9.3
 
-  typescript@5.5.4: {}
+  typescript@5.9.3: {}
 
-  undici-types@6.19.8: {}
+  undici-types@6.21.0: {}
 
   which@2.0.2:
     dependencies:

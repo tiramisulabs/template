@@ -1,4 +1,4 @@
-import { ActionRow, ComponentCommand, ComponentContext, Modal, TextInput } from "seyfert";
+import { ComponentCommand, ComponentContext, Label, Modal, TextInput } from "seyfert";
 import { TextInputStyle } from "seyfert/lib/types";
 
 export default class Ping extends ComponentCommand {
@@ -10,22 +10,20 @@ export default class Ping extends ComponentCommand {
     async run(ctx: ComponentContext<typeof this.componentType>) {
         const nameInput = new TextInput()
             .setCustomId('name')
-            .setStyle(TextInputStyle.Short)
-            .setLabel('Name');
+            .setStyle(TextInputStyle.Short);
 
-        const row1 = new ActionRow<TextInput>().setComponents([nameInput]);
+        const label1 = new Label().setLabel('Name').setComponent(nameInput);
 
         const ageInput = new TextInput()
             .setCustomId('age')
-            .setStyle(TextInputStyle.Short)
-            .setLabel('Age');
+            .setStyle(TextInputStyle.Short);
 
-        const row2 = new ActionRow<TextInput>().setComponents([ageInput]);
+        const label2 = new Label().setLabel('Age').setComponent(ageInput);
 
         const modal = new Modal()
             .setCustomId('mymodal')
             .setTitle(ctx.t.foo.bar.get().slice(0, 45))
-            .setComponents([row1, row2]);
+            .setComponents([label1, label2]);
 
         await ctx.modal(modal);
     }
